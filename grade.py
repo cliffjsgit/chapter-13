@@ -166,14 +166,14 @@ def grade(assignment):
 def submit(file,name):
     with open(file,'rb') as fin:
         assignment = fin.read()
-        url = 'https://1402-answer-repo.s3.amazonaws.com/assignments/'+name+'/'+chapter+'/'+file
+        url = 'https://1402-answers-repo.s3.amazonaws.com/assignments/'+name+'/'+chapter+'/'+file
         req = urllib.request.Request(url.replace(' ',''), data=assignment, method='PUT')
         urllib.request.urlopen(req)
 
 def submitbad(file,name):
     with open(file,'rb') as fin:
         assignment = fin.read()
-        url = 'https://1402-answer-repo.s3.amazonaws.com/assignments/'+name+'/'+chapter+'/incorrect/'+file
+        url = 'https://1402-answers-repo.s3.amazonaws.com/assignments/'+name+'/'+chapter+'/incorrect/'+file
         req = urllib.request.Request(url.replace(' ',''), data=assignment, method='PUT')
         urllib.request.urlopen(req)
             
