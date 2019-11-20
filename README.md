@@ -1,17 +1,18 @@
 Instructions
 #Chapter 13 - README.md
 
-In these review exercises, you will be reviewing the basic Python techniques that are presented in the exercises of Think Python Chapter 12.
+In these review exercises, you will be reviewing the basic Python techniques that are presented in the exercises of 
+Think Python Chapter 12.
 
 Start by cloning the Chapter 12 Exercises into you local repository.
-
+ ...
  $ cd ~
  $ git clone https://github.com/cliffjsgit/chapter-13
 Once you have cloned this repo, you may proceed to the labs.
 
  $ cd ~/chapter-13
  ~/chapter-13 (master)$ ls
- ...
+ 
 Create a solutions directory for your exercise solutions, in the chapter-12 directory.
 
  ~/chapter-13 (master)$ mkdir solutions
